@@ -1,7 +1,7 @@
 const email = document.getElementById("email")
 
 const form = document.getElementsByTagName("form")[0]
-let url = 'https://minsk-hk-news.herokuapp.com/16108';
+let url = 'https://minsk-hk-news.herokuapp.com/ikirtan';
 
 form.addEventListener('submit', e => {
 
