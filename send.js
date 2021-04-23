@@ -1,13 +1,12 @@
 const email = document.getElementById("email")
 
-const form = document.getElementsByTagName("form")[0]
-let url = 'https://minsk-hk-news.herokuapp.com/ikirtan';
+const form = document.getElementById('form')
+const url = 'http://194.120.116.33:8082/message/'
 
 form.addEventListener('submit', e => {
 
     e.preventDefault()
-    alert('пока что не работает')
-    fetch(url)
+    fetch(url + email.value)
         .then(response => response.json())
         .then(r => console.log(r))
     
