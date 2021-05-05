@@ -1,40 +1,129 @@
-<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="description" content="Фестиваль ведической культуры в Минске. iKirtan Fest" />
-<meta name="keywords" content="coming, soon, page, Comotia, free download" />
+    <title>I love kirtan fest - сайт в разработке</title>
 
-<title>Скоро здесь будет сайт - iKitran Fest</title>
+    <!-- css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 
-<link rel="stylesheet" href="style.css">
-
-<style type="text/css">
-</style>
-
+    <link href="assets/images/favicon.png" rel="icon">
+    <link href="assets/images/apple-touch-icon.png" rel="apple-touch-icon">
 </head>
+<body data-spy="scroll" data-target="#site-nav">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
 
-<body>
-	
-	<div id="coming-soon">
-		
-		<h1>Немного терпения</h1>
-		
-		<p>Сайт уже почти готов</p>
-		<p>Скоро здесь будет сайт фестиваля iKirtan Fest. А пока что можете оставить адрес своей почты и мы вам сообщим, когда сайт будет готов. Или заходите в наш инстаграм</p>
-		
-		<form id="form" method="POST">
-		<div id="subscribe">
-			<input id="email" type="email" placeholder="введите адрес электронной почты...">
-			<input type="submit" value="Отправить">
-			<div class="clear"></div>
-		</div>
-		</form>
-		
-		<a href="http://instagram.com/ikirtanminsk" title="Аккаунт фестиваля в Instagram" class="twitter center">iKirtanMinsk</a>
-		
-	</div>
-<script src="send.js"></script>
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="/">
+                        
+                        <!-- logo image  -->
+                        <img src="assets/images/logo1.png" alt="Logo">
+
+                        Kirtan Fest
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <!-- <li class="active"><a data-scroll href="#about">About</a></li>
+                    <li><a data-scroll href="#speakers">Speakers</a></li>              
+                    <li><a data-scroll href="#schedule">Schedule</a></li>                  
+                    <li><a data-scroll href="#partner">Partner</a></li>                   -->
+                    <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
+                    <!-- <li><a data-scroll href="#faq">FAQ</a></li>
+                    <li><a data-scroll href="#photos">Photos</a></li> -->
+                
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center"> 
+        <div class="intro">
+
+            <h2>2 Мая, 2021 / Crazy Horse</h2>
+            
+            <h1>Фестиваль</h1>
+            
+            <p>Сайт в разработке</p>
+            
+            <a class="btn btn-white" data-scroll href="#disqus">Обсудить</a>
+        
+        </div>
+    </header>
+
+
+    <section id="disqus" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- <h3 class="text-uppercase mt0 font-400">Submit Your Contribution Work</h3> -->
+                    <div id="disqus_thread"></div>
+                    <script>
+                        /**
+                        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                        /*
+                        var disqus_config = function () {
+                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                        };
+                        */
+                        (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://ikirtan-fest.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+   
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                   <!-- Shared by <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">BootstrapThemes</a> -->
+                    <ul class="social-block">
+                        <li><a target="_blank" rel="noreferrer" href="https://instagram.com/kirtanminsk"><i class="ion-social-instagram"></i></a></li>
+                        <!-- <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
