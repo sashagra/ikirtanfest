@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document 
+Author Name: Saptarang
+Author URI: http://www.saptarang.org
+Themeforest: http://themeforest.net/user/saptarang?ref=saptarang
+Creation Date: 8 April, 2015
+Description: A default stylesheet for Electron Music Event Landing Page Template, Designed & Developed By Saptarang.
+
+------------ TABLE OF CONTENT ------------
+
+- PRIMARY COLOR
+- SECONDARY
+- LIGHT
+- DARK GREY
+
+*/
+/* ======================= */
+/* ========= PRIMARY ======== */
+/* ======================= */
+a, .price span, h1 span, .subscribe input[type=submit], i.prime, ul.list-default li:before, .offer h1, .tab-content h3 i, h1 span, h2 span, #upcoming .item .info i, .visible .navbar-default .navbar-nav > li > a i, .visible .navbar-nav li .sub-nav li a i {
+	color: #bd2871;
+}
+.prime .dblBorder:hover, .prime .dblBorder:hover .dblBorderChild {
+	border: #bd2871 1px solid;
+}
+#subscribeForm input[type="email"] {
+	border-color: rgba(189, 40, 112, 0.8);
+}
+/* == Background PRIMARY == */
+#slides h3, .btn-primary, .BGprime, h3 span, .option li:hover, .btn-primary, .btn-dark:hover, a.top, .sqaureIconPrime, .owl-theme .owl-controls .owl-buttons div, #upcoming .item:hover, header.BGlight .navbar-default .navbar-nav > li:hover, .navbar-nav li .sub-nav li:hover a, .rightnav, .eventData .btn:hover, #contact_form input[type="submit"]:hover, .subscribe input[type=submit] {
+	background-color: #bd2871;
+}
+/* == use rgba values here == */
+.contactForm .form-control:focus, .sqaureIconPrime, .subscribe input[type=submit] {
+	-webkit-box-shadow: 0 0 0 0.26em rgba(189, 40, 112, 0.5);
+	-moz-box-shadow: 0 0 0 0.26em rgba(189, 40, 112, 0.5);
+	box-shadow: 0 0 0 0.26em rgba(189, 40, 112, 0.5);
+}
+.BGprime.opaque {
+	background-color: rgba(189, 40, 112, 0.8);
+}
+/* ======================= */
+/* ======= SECONDARY ======= */
+/* ======================= */
+#celebs .item i, .main-menu li:hover > a i, #venue strong, #venue label {
+	color: #ff9000;
+}
+.secondary .dblBorder:hover, .secondary .dblBorder:hover .dblBorderChild {
+	border: #ff9000 1px solid;
+}
+#slides .slide .slide-caption .container span, #pricing .package .inner, #pricing hr, #testimonial span, #subscribeForm input[type="text"] {
+	border-color: #ff9000;
+}
+/* == Background SECONDARY == */
+.navbar-default, .BGsecondary, .option li, .btn-default, #testimonial .carousel-indicators li.active, .galleryImg > a span, .sqaureIconSec, .owl-theme .owl-controls .owl-page span, .tabs-left li.active, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus, #pricing .package:hover, #upcoming .item .img, #testimonial .carousel-indicators li, #slides, #venue .btn:hover, .features .row > div:hover .sqaureIconPrime {
+	background-color: #ff9000;
+}
+/* == use rgba values here == */
+.BGsblue.opaqueBG, .member .info {
+	background-color: rgba(255, 144, 0, 0.8);
+}
+.features .boxBg {
+	background-color: rgba(255, 144, 0, 0.3);
+}
+.sqaureIconSec, .features .row > div:hover .sqaureIconPrime {
+	-webkit-box-shadow: 0 0 0 0.26em rgba(255, 144, 0, 0.5);
+	-moz-box-shadow: 0 0 0 0.26em rgba(255, 144, 0, 0.5);
+	box-shadow: 0 0 0 0.26em rgba(255, 144, 0, 0.5);
+}
+/* ======================= */
+/* ====== LIGHT ======= */
+/* ======================= */
+/* == Background LIGHT == */
+.BGlight, .services, #upcoming .item, header.BGlight.visible {
+	background-color: #f8f8f8;
+}
+/* ======================= */
+/* =====  DARK GREY  ===== */
+/* ======================= */
+h1, h2, h3, h4, h5, h6, .phone small, .offer h1 span, header.BGlight.visible .navbar-default .navbar-nav > li > a, .features p {
+	color: #273034;
+}
+/* == Background Color4 == */
+#slides .slide .slide-caption .container h3 span, .BGdark, .phone:hover .BGsecondary, .btn:hover, .middleBox, .btn-dark, .galleryImg, .social ul li a i, ul.tabs-left, #venue h2, .experts .highlightBox, #slides .slide .img {
+	background-color: #273034;
+}
+nav.nav, header.BGdark, .eventData .dblBorder:hover .dblBorderChild {
+	background-color: #232323 !important;
+}
