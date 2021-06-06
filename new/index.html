@@ -862,12 +862,11 @@
 <section id="venue" class="BGdark">
   <!-- <div class="container-wide">
     <div id="map_canvas">
-      <iframe width="70vw" height="40vh" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=29.382419586181644%2C54.50553581415009%2C29.44816589355469%2C54.53159140750892&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=14/54.5186/29.4153">Посмотреть более крупную карту</a></small>
     </div>
   </div> -->
   <div class="container">
     <div class="row">
-     
+  
       <div class="col-md-12 text-center"><h2>Место проведения</h2></div>
         
         <div class="col-md-3 col-sm-3">
@@ -928,24 +927,24 @@
          <div class="col-md-12 col-sm-12">
             
             <div class="contactForm">
-              <form id="contact_form" method="post" action="form/contact.php">
+              <form id="contact_form">
                 <div class="row">
                 <div class="form-row col-sm-4">
-                  <input type="text" id="name" name="name" placeholder="Your Name" />
+                  <input type="text" required id="name" name="name" placeholder="Ваше имя" />
                 </div>
                 <div class="form-row col-sm-4">
-                  <input type="tel" id="phone" name="phone" placeholder="Your Phone" />
+                  <input required type="tel" id="phone" name="phone" placeholder="Номер телефона" />
                 </div>
                 <div class="form-row col-sm-4">
-                  <input type="email" id="email" name="email" placeholder="Your Email" />
+                  <input required type="email" id="email" name="email" placeholder="Ваш Email" />
                 </div>
                 </div>
                 <div class="form-row">
-                  <textarea cols="60" rows="3" id="comment" name="comment" placeholder="Write your comment here..."></textarea>
+                  <textarea required cols="60" rows="3" id="comment" name="comment" placeholder="Напишите ваше сообщение здесь..."></textarea>
                 </div>
                 <div class="form-row text-center">
                   <input type="text" id="security" name="security" class="hide" value="" />
-                  <input type="submit" value="&#xf1d8; send message" class="btn btn-dark btn-lg" id="submit" name="submit" />
+                  <input type="submit" value="&#xf1d8; послать сообщение" class="btn btn-dark btn-lg" id="submit" name="submit" />
                 </div>
               </form>
             </div>
@@ -971,15 +970,16 @@
 <a href="#slides" class="top"><i class="fa fa-angle-up fa-lg"></i></a>
 
 <!--START SCRIPTS -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>  -->
-<!-- <script type="text/javascript" src="js/directions.js"></script> -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/placeholders.js"></script>
-<script type="text/javascript" src="js/jquery.superslides.min.js"></script>
-<script type="text/javascript" src="js/jquery.countdown.js"></script>
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
-<script type="text/javascript" src="js/master.js"></script>
+<script src="js/jquery.min.js"></script>
+<!-- <script src="http://maps.google.com/maps/api/js?sensor=false"></script>  -->
+<!-- <script src="js/directions.js"></script> -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/placeholders.js"></script>
+<script src="js/jquery.superslides.min.js"></script>
+<script src="js/form.js"></script>
+<script src="js/jquery.countdown.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/master.js"></script>
 </body>
 </html>
