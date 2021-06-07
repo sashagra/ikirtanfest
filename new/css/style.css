@@ -903,6 +903,10 @@ header.BGlight .navbar-default .navbar-nav > li:hover > a, header.BGlight .navba
 	background: url(../img/special_guest.jpg) no-repeat left center;
 	min-height: 30em;
 }
+.guest-right {
+	background: url(../img/special_guest.jpg) no-repeat right center;
+	min-height: 30em;
+}
 .guest strong {
 	color: rgba(255, 255, 255, 0.7);
 	font-size: 1.15em;
@@ -1467,6 +1471,12 @@ ul.address li:first-child i {
 .social {
 	margin-top: 0.85em;
 }
+
+.social h3 {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
 .social ul li {
 	margin: 0;
 }
@@ -1490,6 +1500,7 @@ ul.address li:first-child i {
 /* ================================= */
 /* ------ CONTACT ------ */
 /* ================================= */
+
 .experts .boxBg {
 	background-color: rgba(0, 0, 0, 0.3);
 }
@@ -1549,6 +1560,17 @@ ul.address li:first-child i {
  #contact_form ::-ms-input-placeholder {
 	color: #FFF;
 	opacity: 1;
+}
+.my-loader {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	padding-top: 50vh;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: rgba(128, 128, 128, 0.418);
 }
 /* ================================= */
 /* ------ COPYRIGHT ------ */
@@ -1678,8 +1700,8 @@ h5 {
 .dblBorderChild p {
 	font-size: 1.35em;
 }
-.guest, {
- background-size:70%;
+.guest {
+	background-size:70%;
 }
 #about {
 	background-size: 45%;
