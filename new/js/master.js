@@ -68,7 +68,7 @@ jQuery( document ).ready( function( $ ) {
 	});
 	
 	$("#sponsorOwl").owlCarousel({
-		items : 4,
+		items : 3,
 		lazyLoad : true,
 		navigation : true,
     	navigationText : ["&#xf104;","&#xf105;"],

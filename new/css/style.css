@@ -464,6 +464,8 @@ hr.light {
 	min-height: 150px;
 	background: url(../img/AjaxLoader.gif) no-repeat center center;
 }
+
+
 /* ================================= */
 /* ------------ HEADER ------------ */
 /* ================================= */
@@ -903,9 +905,8 @@ header.BGlight .navbar-default .navbar-nav > li:hover > a, header.BGlight .navba
 	background: url(../img/special_guest.jpg) no-repeat left center;
 	min-height: 30em;
 }
-.guest-right {
-	background: url(../img/special_guest.jpg) no-repeat right center;
-	min-height: 30em;
+.guest2 {
+	background: url(../img/special_guest2.jpg) no-repeat left center;
 }
 .guest strong {
 	color: rgba(255, 255, 255, 0.7);
