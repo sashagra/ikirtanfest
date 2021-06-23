@@ -2335,3 +2335,26 @@ html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fie
 	line-height:2.35em;
 }
 }
+
+iframe {
+	max-width: 100%;
+}
+
+.vip {
+	display: flex;
+	justify-content: center;
+}
+
+.BGmiddle {
+	background-color: #333;
+}
+
+.schema {
+	background-color: white;
+	color: #333;
+}
+
+.schema:hover {
+	background-color: #333;
+	color: white;
+}
