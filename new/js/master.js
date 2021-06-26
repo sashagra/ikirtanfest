@@ -50,7 +50,7 @@ jQuery( document ).ready( function( $ ) {
 		  if (years != '00') {
 		$(this.el).html("<div><span>" + this.leadingZeros(data.years, 2) + " </span><strong>лет</strong></div><div><span>" + this.leadingZeros(data.days, 3) + " </span><strong>дней</strong></div><div><span>" + this.leadingZeros(data.hours, 2) + "  </span><strong>часов</strong></div><div><span>" + this.leadingZeros(data.min, 2) + "</span><strong>минут</strong></div><div><span>" + this.leadingZeros(data.sec, 2) + " </span><strong>секунд</strong></div>");
 		  } else {
-		  $(this.el).html("<div><span>" + this.leadingZeros(data.days, 3) + " </span><strong>дней</strong></div><div><span>" + this.leadingZeros(data.hours, 2) + "  </span><strong>часов</strong></div><div><span>" + this.leadingZeros(data.min, 2) + "</span><strong>минут</strong></div><div><span>" + this.leadingZeros(data.sec, 2) + " </span><strong>секунд</strong></div>");
+		  $(this.el).html("<div><span>" + this.leadingZeros(data.days, 2) + " </span><strong>дней</strong></div><div><span>" + this.leadingZeros(data.hours, 2) + "  </span><strong>часов</strong></div><div><span>" + this.leadingZeros(data.min, 2) + "</span><strong>минут</strong></div><div><span>" + this.leadingZeros(data.sec, 2) + " </span><strong>секунд</strong></div>");
 		  }
 	  }
 	});
